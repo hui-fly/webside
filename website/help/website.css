@@ -1,0 +1,221 @@
+@font-face {
+    font-family: adrarling;
+    src: url("../ttf/adrarling.ttf");
+}
+@font-face {
+    font-family: boldtype;
+    src: url("../ttf/boldtype.ttf");
+}
+html,body{
+  margin:0px;
+  padding: 0px;  
+  overflow-x:hidden; 
+  background: #000;
+  font-family: adrarling,boldtype,sans-serif;
+}
+
+.main{
+    position:relative;
+}
+.bg{
+	width: 100%;
+	height: 17em;
+	background: url(image/8.jpg) no-repeat;
+	background-size: cover;
+	-webkit-filter: blur(8px);
+    -moz-filter: blur(8px);
+    -o-filter: blur(8px);
+    -ms-filter: blur(8px);
+	filter: blur(8px);
+}
+
+.tet{
+	position: relative;
+    text-align: center;
+	font-family: adrarling,boldtype,sans-serif;
+	font-size: 3em;
+	margin: 0 auto;
+	color:#0e0;
+}
+.title img{
+	position: relative;
+	animation: logo 4s linear infinite;
+	margin: auto;
+    margin-top: -15em;
+	display: block;
+	width: 20%;
+}
+.content{
+	height: 140em;
+	font-size: 1em;	
+}
+h2{
+	width: 4.3em;
+	color:#aaa; 
+	margin-left: 3em;
+	padding-top: 3em;
+	border-bottom: 0.1em solid #aaa;
+}
+.instroduce{
+	position: relative;
+	height: 18%;
+	width: 70%;
+	margin: 0 auto;	
+	border-bottom:  0.1em solid #aaa;
+    top: 3em;
+}
+.intoduce img{
+	position: relative;
+	float: left;
+	display: block;
+    width: 40%;
+}
+.story{
+	position: relative;
+	top: -28em;
+	left: 30em;
+}
+.story p{
+	border-style:  dotted;
+	font-size: 1.3em;
+	line-height: 1.6em;
+	padding: 1em;
+	width: 45%;
+	margin-left: 4em;	
+	color: rgb(33, 150, 243);
+}
+.story h2{
+	margin-left: 4em;
+}
+.rule{
+	position: relative;
+    height: 42%;
+    top:4em;
+    padding-bottom: 5em;	  
+    left: 2em;
+}
+.rule img{
+	position: relative;
+	float: left;
+    left: 7em;
+	height:55%;
+	display: block;  
+}
+h3{
+   position: relative;
+   left: 3em;
+   color:#abc;
+   width: 1.5em;
+   top:3em;
+   font-size: 2em;
+}
+#xiangxi{
+	padding-top: 1em;
+	position: relative;	
+	top:-6em;
+	line-height: 1.5em;
+	color: #aaa;
+	margin:0 auto;
+	font-size: 1.2em;
+	width: 75%;
+}
+.rule h2{   
+	margin-top: -1em;
+}
+h4{
+	position: relative;
+	color: #aaa;
+	left:4em;
+}
+
+
+.note{
+	background: url(image/4.jpg) no-repeat;
+	position: relative;
+	height: 20%;
+	width: 80%;
+	left:8em;	
+	top: 16em;
+	padding-bottom: 5em;
+	border-bottom:  0.1em solid #aaa;
+}
+.pit{
+	animation: pit 1s linear infinite;
+	position: absolute;
+	display: block;
+	width:11%;
+	left:20em;
+	top:5em;
+}
+.yj{
+	animation: pit 1s linear infinite;
+	position: absolute;
+	display: block;
+	width:20%;
+	left:5em;
+	top:10em;
+}
+.protocol{
+	position: relative;
+	display: block;	
+	margin-top: -9.5em;
+	left: 35em;
+}
+.protocol p{
+	position: relative;
+	top:-3em;
+    border-style:  dotted;
+	font-size: 1.3em;
+	line-height: 1.6em;
+	padding: 1em;
+	width: 50%;
+	margin-left: 4em;	
+	color: rgb(33, 150, 243);
+}
+.protocol h2{
+	position: relative;
+	top:-3em;
+	margin-left: 4em;
+}
+
+
+.problem{
+	position: relative;
+    height: 24%;
+    top:17em;
+    margin-top: 4em;
+    margin-left: 5em;
+}
+.problem img{
+    position: relative;
+	float: right;
+	display: block;
+    width: 40%;
+    margin-right: 6em;
+    margin-top: 3em;
+}
+.problem h2{
+	margin-top: -2em;
+}
+.problem p{
+	width: 55%;
+	font-size: 1.3em;
+	line-height: 1.6em;
+	width: 80%;
+	margin-left: 3em;	
+	color: rgb(33, 150, 243);
+}
+@keyframes pit{
+    0%{opacity:0.5;}
+    25%{opacity: 0.8;}
+    50%{opacity:1;}
+    75%{opacity: 0.8;}
+    100%{opacity:0.5;}
+ }
+ @keyframes yj{
+    0%{opacity:0.5;}
+    25%{opacity: 0.8;}
+    50%{opacity:1;}
+    75%{opacity: 0.8;}
+    100%{opacity:0.5;}
+}

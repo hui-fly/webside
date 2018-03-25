@@ -1,0 +1,120 @@
+@font-face {
+    font-family: adrarling;
+    src: url("../ttf/adrarling.ttf");
+}
+@font-face {
+    font-family: boldtype;
+    src: url("../ttf/boldtype.ttf");
+}
+body{
+  background: #000 url("bg.png") no-repeat  center center fixed;
+    background-size: 100%;
+    overflow: hidden;
+
+}
+#quote{
+    font-family:adrarling,sans-serif;
+    font-weight: 400;
+    left: 0px;
+    font-size: 2.0em;
+    color: #FFFFCC;
+    padding: 15px 15px 20px 50px;
+    margin-top: -22px;
+    line-height: 1.2;
+    width: 55%;
+    z-index: 10;
+    position: relative;
+}
+.gradient{
+    background-image: -webkit-gradient(linear,left top,right top,from(rgba(0,0,0,0.75)),to(rgba(0,0,0,0)));
+}
+#dark-bottom{
+    background: rgba(0,0,0,0.70);
+    bottom: 0;
+    position: absolute;
+    color: #FFFFCC;
+    height: 150px;
+    left: 0;
+    width: 100%;
+}
+#brand{
+    left: 520px;
+    margin-top: 10px;
+    position: absolute;
+}
+#brand h1{
+    color:#3ea4f6;
+    font-family: adrarling,boldtype,sans-serif;
+    text-align: center;
+
+}
+#screen{
+    background: url("phone.png") no-repeat;
+    background-size: contain;
+    bottom: -100px;
+    height: 500px;
+    left: 20px;
+    margin: 0;
+    position: absolute;
+    padding: 0;
+    width: 380px;
+    z-index: 5;
+    text-align: center;
+}
+#play-button{
+    background: url("playbtn.png") no-repeat;
+    background-size: cover;
+    display: block;
+    width: 80px;
+    height: 80px;
+    left: 50%;
+    margin-left: -86px;
+    position: absolute;
+    top: 50%;
+}
+#play-button:hover{
+    background: url("playbtn2.png")no-repeat;
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+}
+#logo img{
+    position: relative;
+    animation: logo 3s linear infinite;
+    background-size: contain;
+    background-position: right;
+    position:absolute;
+    width: 100px;
+    height: 50px;
+    margin-left:420px;
+    margin-top:363px;
+}
+.tiny{
+    font-size: 0.7em;
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+.download{
+    position: relative;
+    display: block;
+    left: 50em;
+    bottom: 5em;
+}
+
+#copyright{
+    color: #666;
+    top: 50%;
+    left: 570px;
+    position: absolute;
+    margin-top:273px;
+}
+@keyframes logo{
+    0%{top:7em;}
+    20%{top:7.2em;}
+    350%{top:7.4em;}
+    50%{top:7.6em;}
+    65%{top:7.4em;}
+    80%{top:7.2em;}
+    100%{top:7em;}
+}
